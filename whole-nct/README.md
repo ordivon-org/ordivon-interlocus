@@ -9,9 +9,19 @@ Cross-axis semantic reconciliation for frozen:
 
 This programme does not create a new semantic carrier or Network Foundation. It makes the interfaces among K, Π, H and J explicit, tests circularity/ownership/migration/abstraction compatibility, and determines whether the frozen NCT core survives its independently developed derived theories.
 
-Current standing after Round 1: **RECONCILED WITH INTERFACE REPAIR ONLY; no NCT/Foundation reopen condition fired.**
+## Final standing
 
-See:
+**INTERFACE REPAIR FREEZE.**
 
-- `WHOLE-NCT-INTERFACE-RECONCILIATION-v0.md`
-- `ROUND-1-CROSS-AXIS-RECONCILIATION.md`
+NCT v1 and all three derived v1 theories remain frozen unchanged. The canonical addition is the Whole-NCT cross-axis interface/proof contract: shared J ownership, typed identity/dependency/provenance roles, staged migration, same-slice proof acyclicity, shared `Ω_NCT` normalization closure, and non-circular serviceability/recovery/retry proof ordering.
+
+No NCT/Foundation reopen condition fired. NDF6 remains NOT ADMITTED.
+
+Key artifacts:
+
+- `WHOLE-NCT-DERIVED-RECONCILIATION-v1.md` — final frozen interface reconciliation and reopen conditions;
+- `ROUND-2-THEOREM-CLOSURE-AND-REOPEN-AUDIT.md` — migration/proof-DAG/joint-normalization/hostile-fixture theorem closure and 36-condition upstream reopen audit;
+- `WHOLE-NCT-INTERFACE-RECONCILIATION-v0.md` — Round-1 interface grammar;
+- `ROUND-1-CROSS-AXIS-RECONCILIATION.md`.
+
+Semantic theory expansion is now closed. Next step is separate physical Git/shared-main reconciliation and canonical navigation/materialization, not NDF/Foundation growth.
