@@ -1,0 +1,538 @@
+{
+  "authorityRef": "authority:ordivon:research-owner:network",
+  "closeouts": [
+    {
+      "closure": [
+        {
+          "scope": "NDF0-NDF5",
+          "status": "ESTABLISHED"
+        },
+        {
+          "scope": "WHOLE_DOMAIN_EXHAUSTIVE",
+          "status": "NOT_CLAIMED"
+        }
+      ],
+      "epistemicVerdict": "ESTABLISHED_IN_SCOPE",
+      "evidenceScope": "Current manually consolidated Network owner corpus at the published source revision.",
+      "materialLineage": [
+        "NDF0 controlled repair from Communicability to InterLocusCapability is preserved in REPAIRED-HISTORY.md.",
+        "NDF1 dependent scope repair is preserved.",
+        "NDF6 remains NOT_ADMITTED."
+      ],
+      "profile": "LEGACY_EXTRACTION",
+      "provenance": [
+        "owners/network/README.md",
+        "owners/network/NDF-REGISTRY.md",
+        "owners/network/REPAIRED-HISTORY.md",
+        "owners/network/COVERAGE-CLOSURE.md",
+        "owners/network/NEGATIVE-RESIDUAL-HISTORY.md"
+      ],
+      "reopenPolicy": "Reopen a frozen claim only under an owner-declared concrete falsifier/reopen condition; do not infer NDF6 from numbering.",
+      "researchRef": "research:network:core-materialization-20260818",
+      "residualState": "OPEN_RESIDUALS_EXIST",
+      "resultRefs": [
+        "result:network:ndf0-ndf5-current-frozen",
+        "result:network:ndf6-not-admitted",
+        "result:network:whole-domain-exhaustive-closure-not-established"
+      ],
+      "scopeRefs": [
+        "research-owner:network"
+      ],
+      "standing": [
+        "CURRENT",
+        "FROZEN"
+      ]
+    },
+    {
+      "closure": [
+        {
+          "scope": "NETWORK_CORE_THEORY_V1",
+          "status": "ESTABLISHED"
+        },
+        {
+          "scope": "WHOLE_DOMAIN_EXHAUSTIVE",
+          "status": "NOT_CLAIMED"
+        }
+      ],
+      "epistemicVerdict": "ESTABLISHED_IN_SCOPE",
+      "evidenceScope": "Network Core Theory v1 freezes the technology-neutral decomposition NCT_v1=<K,Π,H;J>_Γ over the repaired NDF0–NDF5 baseline; no NDF6 or whole-domain exhaustive closure is claimed.",
+      "materialLineage": [
+        "NDF0 Communicability -> InterLocusCapability repair remains preserved.",
+        "NDF1 scope/composition repair remains preserved.",
+        "Core Theory v1 frozen at e57b3315f1724cd3d73cc66944aac8d3b9806bd6."
+      ],
+      "profile": "NATIVE",
+      "provenance": [
+        "owners/network/core-theory/NETWORK-CORE-THEORY-v1.md",
+        "owners/network/core-theory/ROUND-3-CLOSURE-TOURNAMENT.md",
+        "owners/network/CANONICAL-THEORY-MAP.md"
+      ],
+      "reopenPolicy": "Reopen only under the explicit Network Core Theory v1 reopen conditions or an upstream NDF reopen condition.",
+      "researchRef": "research:network:core-theory-v1-20260818",
+      "residualState": "DERIVED_AXES_MATERIALIZED_SEPARATELY; WHOLE_DOMAIN_EXHAUSTIVE_NOT_CLAIMED",
+      "resultRefs": [
+        "result:network:core-theory-v1-current-frozen"
+      ],
+      "scopeRefs": [
+        "research-owner:network"
+      ],
+      "standing": [
+        "CURRENT",
+        "FROZEN"
+      ]
+    },
+    {
+      "closure": [
+        {
+          "scope": "NETWORK_CAPABILITY_CALCULUS_V1",
+          "status": "ESTABLISHED"
+        },
+        {
+          "scope": "WHOLE_DOMAIN_EXHAUSTIVE",
+          "status": "NOT_CLAIMED"
+        }
+      ],
+      "epistemicVerdict": "ESTABLISHED_IN_SCOPE",
+      "evidenceScope": "Capability Calculus v1 is the current frozen K-side typed partial algebra: polarized clauses, witnessed discharge/composition, role-relative refinement, BRNF, and grounded guarded recursion under explicit observation/owner conditions.",
+      "materialLineage": [
+        "Derived from frozen Network Core Theory v1.",
+        "Capability Calculus v1 frozen at fcb1ff3e1c6c191b68c09a50a10e7487f2e0eab0."
+      ],
+      "profile": "NATIVE",
+      "provenance": [
+        "owners/network/capability-calculus/NETWORK-CAPABILITY-CALCULUS-v1.md",
+        "owners/network/capability-calculus/ROUND-3-THEOREM-AND-CLOSURE-TOURNAMENT.md",
+        "owners/network/CANONICAL-THEORY-MAP.md"
+      ],
+      "reopenPolicy": "Reopen only under the explicit Capability Calculus v1 reopen conditions or an upstream Core/NDF reopen condition.",
+      "researchRef": "research:network:capability-calculus-v1-20260818",
+      "residualState": "OPTIONAL_MACHINE_CHECKING_DEFERRED; WHOLE_DOMAIN_EXHAUSTIVE_NOT_CLAIMED",
+      "resultRefs": [
+        "result:network:capability-calculus-v1-current-frozen"
+      ],
+      "scopeRefs": [
+        "research-owner:network"
+      ],
+      "standing": [
+        "CURRENT",
+        "FROZEN"
+      ]
+    },
+    {
+      "closure": [
+        {
+          "scope": "NETWORK_PROJECTION_CURRENTNESS_THEORY_V1",
+          "status": "ESTABLISHED"
+        },
+        {
+          "scope": "WHOLE_DOMAIN_EXHAUSTIVE",
+          "status": "NOT_CLAIMED"
+        }
+      ],
+      "epistemicVerdict": "ESTABLISHED_IN_SCOPE",
+      "evidenceScope": "Projection & Currentness Theory v1 is the current frozen Π/evidence-currentness theory: typed claim/evidence roles, claim-local authority, epoch-local supersession, evidence frontiers, conflict preservation, currentness and standing bridges.",
+      "materialLineage": [
+        "Derived over frozen Core Theory v1 and Capability Calculus v1.",
+        "Projection & Currentness Theory v1 frozen at 28e6e23fd5881d37dd807983f694c2f17ec6392d."
+      ],
+      "profile": "NATIVE",
+      "provenance": [
+        "owners/network/projection-currentness/NETWORK-PROJECTION-CURRENTNESS-THEORY-v1.md",
+        "owners/network/projection-currentness/ROUND-3-THEOREM-AND-CLOSURE-TOURNAMENT.md",
+        "owners/network/CANONICAL-THEORY-MAP.md"
+      ],
+      "reopenPolicy": "Reopen only under the explicit Projection & Currentness v1 reopen conditions or an upstream Core/Capability/NDF reopen condition.",
+      "researchRef": "research:network:projection-currentness-v1-20260818",
+      "residualState": "OWNER_SPECIFIC_AUTHORITY_POLICIES_MAY_DEEPEN; WHOLE_DOMAIN_EXHAUSTIVE_NOT_CLAIMED",
+      "resultRefs": [
+        "result:network:projection-currentness-v1-current-frozen"
+      ],
+      "scopeRefs": [
+        "research-owner:network"
+      ],
+      "standing": [
+        "CURRENT",
+        "FROZEN"
+      ]
+    },
+    {
+      "closure": [
+        {
+          "scope": "NETWORK_OPERATIONAL_REALIZATION_THEORY_V1",
+          "status": "ESTABLISHED"
+        },
+        {
+          "scope": "WHOLE_DOMAIN_EXHAUSTIVE",
+          "status": "NOT_CLAIMED"
+        }
+      ],
+      "epistemicVerdict": "ESTABLISHED_IN_SCOPE",
+      "evidenceScope": "Operational Realization Theory v1 is the current frozen H-side typed partial graph algebra: immutable realization events, causal/dependency history, race/retry/recovery/reconciliation, continuation surfaces and RBNF under explicit owner bridges.",
+      "materialLineage": [
+        "Derived over frozen Core, Capability and Projection/Currentness v1 theories.",
+        "Operational Realization Theory v1 frozen at d63c0c7e48771ca6c7acb2b5dd6ef240102c8342."
+      ],
+      "profile": "NATIVE",
+      "provenance": [
+        "owners/network/operational-realization/NETWORK-OPERATIONAL-REALIZATION-THEORY-v1.md",
+        "owners/network/operational-realization/ROUND-3-THEOREM-AND-CLOSURE-TOURNAMENT.md",
+        "owners/network/CANONICAL-THEORY-MAP.md"
+      ],
+      "reopenPolicy": "Reopen only under the explicit Operational Realization v1 reopen conditions or an upstream Core/Capability/Projection/NDF reopen condition.",
+      "researchRef": "research:network:operational-realization-v1-20260819",
+      "residualState": "DOMAIN_SPECIFIC_REALIZATION_SPECIALIZATIONS_MAY_DEEPEN; WHOLE_DOMAIN_EXHAUSTIVE_NOT_CLAIMED",
+      "resultRefs": [
+        "result:network:operational-realization-v1-current-frozen"
+      ],
+      "scopeRefs": [
+        "research-owner:network"
+      ],
+      "standing": [
+        "CURRENT",
+        "FROZEN"
+      ]
+    },
+    {
+      "closure": [
+        {
+          "scope": "WHOLE_NCT_DERIVED_RECONCILIATION_V1",
+          "status": "ESTABLISHED"
+        },
+        {
+          "scope": "NETWORK_CORE_RECONSTRUCTION",
+          "status": "ESTABLISHED"
+        },
+        {
+          "scope": "WHOLE_DOMAIN_EXHAUSTIVE",
+          "status": "NOT_CLAIMED"
+        }
+      ],
+      "epistemicVerdict": "ESTABLISHED_IN_SCOPE",
+      "evidenceScope": "Whole-NCT Derived Reconciliation v1 freezes the cross-axis interface/proof contract with final disposition INTERFACE REPAIR FREEZE: NCT v1 and all three derived v1 theories remain unchanged; 36 upstream reopen conditions were audited and 0 fired.",
+      "materialLineage": [
+        "Core e57b331 -> Capability fcb1ff3 -> Projection/Currentness 28e6e23 -> Operational d63c0c7 -> Whole-NCT 7d125e5 is one preserved semantic ancestry.",
+        "Physical semantic integration/navigation is durable at 9727aacca2f073b88473d3fbab01c32c6b691359 without changing frozen theory text."
+      ],
+      "profile": "NATIVE",
+      "provenance": [
+        "owners/network/whole-nct/WHOLE-NCT-DERIVED-RECONCILIATION-v1.md",
+        "owners/network/whole-nct/ROUND-2-THEOREM-CLOSURE-AND-REOPEN-AUDIT.md",
+        "owners/network/CANONICAL-THEORY-MAP.md",
+        "owners/network/PROVENANCE.md"
+      ],
+      "reopenPolicy": "Reopen Whole-NCT reconciliation only under its explicit v1 reopen conditions or a fired upstream Core/Capability/Projection/Operational/NDF reopen condition.",
+      "researchRef": "research:network:whole-nct-reconciliation-v1-20260819",
+      "residualState": "CURRENT_CORE_RECONSTRUCTION_SEMANTICALLY_CLOSED; FUTURE_DERIVED_PROGRAMMES_REQUIRE_SEPARATE_CHARTERS; WHOLE_DOMAIN_EXHAUSTIVE_NOT_CLAIMED",
+      "resultRefs": [
+        "result:network:whole-nct-reconciliation-v1-current-frozen",
+        "result:network:whole-nct-upstream-reopen-audit-pass"
+      ],
+      "scopeRefs": [
+        "research-owner:network"
+      ],
+      "standing": [
+        "CURRENT",
+        "FROZEN"
+      ]
+    }
+  ],
+  "currentRecovery": {
+    "locator": "owners/network/README.md",
+    "targetRole": "OWNER_RESEARCH_CORPUS"
+  },
+  "kind": "ordivon.research-owner-publication",
+  "ownerResearchRef": "research-owner:network",
+  "profile": "NATIVE",
+  "schemaVersion": 1,
+  "source": {
+    "authorityBranch": "refs/heads/main",
+    "corpusRoot": "owners/network",
+    "kind": "git",
+    "repository": "https://github.com/zycxfyh/ordivon-research.git",
+    "sourceRevision": "9727aacca2f073b88473d3fbab01c32c6b691359"
+  },
+  "statements": [
+    {
+      "predicate": "OWNER_BINDING",
+      "scope": "OWNER",
+      "subjectRef": "research-owner:network",
+      "value": "network"
+    },
+    {
+      "predicate": "STANDING:CURRENT",
+      "scope": "OWNER",
+      "subjectRef": "research-owner:network",
+      "value": true
+    },
+    {
+      "predicate": "CLOSURE",
+      "scope": "WHOLE_DOMAIN",
+      "subjectRef": "research-owner:network",
+      "value": "NOT_CLAIMED"
+    },
+    {
+      "predicate": "STANDING:CURRENT",
+      "scope": "RESULT",
+      "subjectRef": "result:network:ndf0-ndf5-current-frozen",
+      "value": true
+    },
+    {
+      "predicate": "STANDING:FROZEN",
+      "scope": "RESULT",
+      "subjectRef": "result:network:ndf0-ndf5-current-frozen",
+      "value": true
+    },
+    {
+      "predicate": "EPISTEMIC_VERDICT",
+      "scope": "RESULT",
+      "subjectRef": "result:network:ndf0-ndf5-current-frozen",
+      "value": "ESTABLISHED_IN_SCOPE"
+    },
+    {
+      "predicate": "EVIDENCE_SCOPE",
+      "scope": "RESULT",
+      "subjectRef": "result:network:ndf0-ndf5-current-frozen",
+      "value": "Current consolidated Network owner corpus at source revision 80bd37393ff46703be1dec6940bd11ea0f7149dc."
+    },
+    {
+      "predicate": "STANDING:CURRENT",
+      "scope": "RESULT",
+      "subjectRef": "result:network:ndf6-not-admitted",
+      "value": true
+    },
+    {
+      "predicate": "STANDING:NOT_ADMITTED",
+      "scope": "RESULT",
+      "subjectRef": "result:network:ndf6-not-admitted",
+      "value": true
+    },
+    {
+      "predicate": "EPISTEMIC_VERDICT",
+      "scope": "RESULT",
+      "subjectRef": "result:network:ndf6-not-admitted",
+      "value": "ESTABLISHED_IN_SCOPE"
+    },
+    {
+      "predicate": "EVIDENCE_SCOPE",
+      "scope": "RESULT",
+      "subjectRef": "result:network:ndf6-not-admitted",
+      "value": "Current Network owner non-admission decision: NDF6 is not admitted; numbering does not imply a latent Foundation."
+    },
+    {
+      "predicate": "STANDING:CURRENT",
+      "scope": "RESULT",
+      "subjectRef": "result:network:whole-domain-exhaustive-closure-not-established",
+      "value": true
+    },
+    {
+      "predicate": "EPISTEMIC_VERDICT",
+      "scope": "RESULT",
+      "subjectRef": "result:network:whole-domain-exhaustive-closure-not-established",
+      "value": "ESTABLISHED_IN_SCOPE"
+    },
+    {
+      "predicate": "EVIDENCE_SCOPE",
+      "scope": "RESULT",
+      "subjectRef": "result:network:whole-domain-exhaustive-closure-not-established",
+      "value": "Current Network coverage/closure evidence establishes that whole-domain exhaustive closure is not claimed."
+    },
+    {
+      "predicate": "STANDING:CURRENT",
+      "scope": "RESULT",
+      "subjectRef": "result:network:core-theory-v1-current-frozen",
+      "value": true
+    },
+    {
+      "predicate": "STANDING:FROZEN",
+      "scope": "RESULT",
+      "subjectRef": "result:network:core-theory-v1-current-frozen",
+      "value": true
+    },
+    {
+      "predicate": "EPISTEMIC_VERDICT",
+      "scope": "RESULT",
+      "subjectRef": "result:network:core-theory-v1-current-frozen",
+      "value": "ESTABLISHED_IN_SCOPE"
+    },
+    {
+      "predicate": "EVIDENCE_SCOPE",
+      "scope": "RESULT",
+      "subjectRef": "result:network:core-theory-v1-current-frozen",
+      "value": "Network Core Theory v1 is the current frozen technology-neutral NCT_v1=<K,Π,H;J>_Γ decomposition over the repaired NDF0–NDF5 baseline; NDF6 remains NOT_ADMITTED."
+    },
+    {
+      "predicate": "STRUCTURAL_ROLE",
+      "scope": "RESULT",
+      "subjectRef": "result:network:core-theory-v1-current-frozen",
+      "value": [
+        "CORE_THEORY",
+        "CURRENT_REFERENCE"
+      ]
+    },
+    {
+      "predicate": "STANDING:CURRENT",
+      "scope": "RESULT",
+      "subjectRef": "result:network:capability-calculus-v1-current-frozen",
+      "value": true
+    },
+    {
+      "predicate": "STANDING:FROZEN",
+      "scope": "RESULT",
+      "subjectRef": "result:network:capability-calculus-v1-current-frozen",
+      "value": true
+    },
+    {
+      "predicate": "EPISTEMIC_VERDICT",
+      "scope": "RESULT",
+      "subjectRef": "result:network:capability-calculus-v1-current-frozen",
+      "value": "ESTABLISHED_IN_SCOPE"
+    },
+    {
+      "predicate": "EVIDENCE_SCOPE",
+      "scope": "RESULT",
+      "subjectRef": "result:network:capability-calculus-v1-current-frozen",
+      "value": "Capability Calculus v1 is the current frozen K-side typed partial algebra with witnessed discharge/composition, observation-relative equivalence, BRNF and grounded guarded recursion."
+    },
+    {
+      "predicate": "STRUCTURAL_ROLE",
+      "scope": "RESULT",
+      "subjectRef": "result:network:capability-calculus-v1-current-frozen",
+      "value": [
+        "DERIVED_THEORY",
+        "CAPABILITY_CALCULUS"
+      ]
+    },
+    {
+      "predicate": "STANDING:CURRENT",
+      "scope": "RESULT",
+      "subjectRef": "result:network:projection-currentness-v1-current-frozen",
+      "value": true
+    },
+    {
+      "predicate": "STANDING:FROZEN",
+      "scope": "RESULT",
+      "subjectRef": "result:network:projection-currentness-v1-current-frozen",
+      "value": true
+    },
+    {
+      "predicate": "EPISTEMIC_VERDICT",
+      "scope": "RESULT",
+      "subjectRef": "result:network:projection-currentness-v1-current-frozen",
+      "value": "ESTABLISHED_IN_SCOPE"
+    },
+    {
+      "predicate": "EVIDENCE_SCOPE",
+      "scope": "RESULT",
+      "subjectRef": "result:network:projection-currentness-v1-current-frozen",
+      "value": "Projection & Currentness Theory v1 is the current frozen Π/evidence-currentness theory with typed claim authority, epoch-local supersession, evidence frontiers, conflict preservation and standing bridges."
+    },
+    {
+      "predicate": "STRUCTURAL_ROLE",
+      "scope": "RESULT",
+      "subjectRef": "result:network:projection-currentness-v1-current-frozen",
+      "value": [
+        "DERIVED_THEORY",
+        "PROJECTION_CURRENTNESS"
+      ]
+    },
+    {
+      "predicate": "STANDING:CURRENT",
+      "scope": "RESULT",
+      "subjectRef": "result:network:operational-realization-v1-current-frozen",
+      "value": true
+    },
+    {
+      "predicate": "STANDING:FROZEN",
+      "scope": "RESULT",
+      "subjectRef": "result:network:operational-realization-v1-current-frozen",
+      "value": true
+    },
+    {
+      "predicate": "EPISTEMIC_VERDICT",
+      "scope": "RESULT",
+      "subjectRef": "result:network:operational-realization-v1-current-frozen",
+      "value": "ESTABLISHED_IN_SCOPE"
+    },
+    {
+      "predicate": "EVIDENCE_SCOPE",
+      "scope": "RESULT",
+      "subjectRef": "result:network:operational-realization-v1-current-frozen",
+      "value": "Operational Realization Theory v1 is the current frozen H-side typed partial graph algebra with explicit owner bridges, race/retry/recovery semantics, continuation surfaces and RBNF."
+    },
+    {
+      "predicate": "STRUCTURAL_ROLE",
+      "scope": "RESULT",
+      "subjectRef": "result:network:operational-realization-v1-current-frozen",
+      "value": [
+        "DERIVED_THEORY",
+        "OPERATIONAL_REALIZATION"
+      ]
+    },
+    {
+      "predicate": "STANDING:CURRENT",
+      "scope": "RESULT",
+      "subjectRef": "result:network:whole-nct-reconciliation-v1-current-frozen",
+      "value": true
+    },
+    {
+      "predicate": "STANDING:FROZEN",
+      "scope": "RESULT",
+      "subjectRef": "result:network:whole-nct-reconciliation-v1-current-frozen",
+      "value": true
+    },
+    {
+      "predicate": "EPISTEMIC_VERDICT",
+      "scope": "RESULT",
+      "subjectRef": "result:network:whole-nct-reconciliation-v1-current-frozen",
+      "value": "ESTABLISHED_IN_SCOPE"
+    },
+    {
+      "predicate": "EVIDENCE_SCOPE",
+      "scope": "RESULT",
+      "subjectRef": "result:network:whole-nct-reconciliation-v1-current-frozen",
+      "value": "Whole-NCT Derived Reconciliation v1 is current and frozen with final disposition INTERFACE REPAIR FREEZE; it freezes shared J/interface/proof discipline without changing NCT v1 or the three derived v1 theories."
+    },
+    {
+      "predicate": "STRUCTURAL_ROLE",
+      "scope": "RESULT",
+      "subjectRef": "result:network:whole-nct-reconciliation-v1-current-frozen",
+      "value": [
+        "INTERFACE_RECONCILIATION",
+        "CURRENT_REFERENCE"
+      ]
+    },
+    {
+      "predicate": "STANDING:CURRENT",
+      "scope": "RESULT",
+      "subjectRef": "result:network:whole-nct-upstream-reopen-audit-pass",
+      "value": true
+    },
+    {
+      "predicate": "STANDING:FROZEN",
+      "scope": "RESULT",
+      "subjectRef": "result:network:whole-nct-upstream-reopen-audit-pass",
+      "value": true
+    },
+    {
+      "predicate": "EPISTEMIC_VERDICT",
+      "scope": "RESULT",
+      "subjectRef": "result:network:whole-nct-upstream-reopen-audit-pass",
+      "value": "ESTABLISHED_IN_SCOPE"
+    },
+    {
+      "predicate": "EVIDENCE_SCOPE",
+      "scope": "RESULT",
+      "subjectRef": "result:network:whole-nct-upstream-reopen-audit-pass",
+      "value": "Whole-NCT closure audit directly checked 36 canonical upstream reopen conditions across Core, Capability, Projection/Currentness and Operational Realization; 0 fired at the frozen evidence frontier."
+    },
+    {
+      "predicate": "STRUCTURAL_ROLE",
+      "scope": "RESULT",
+      "subjectRef": "result:network:whole-nct-upstream-reopen-audit-pass",
+      "value": [
+        "CLOSURE_AUDIT",
+        "REOPEN_CONDITION_AUDIT"
+      ]
+    }
+  ]
+}
