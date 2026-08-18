@@ -1,0 +1,82 @@
+{
+  "authorityRef": "authority:ordivon:research-owner:network",
+  "closeouts": [
+    {
+      "closure": [
+        {
+          "scope": "NDF0-NDF5",
+          "status": "ESTABLISHED"
+        },
+        {
+          "scope": "WHOLE_DOMAIN_EXHAUSTIVE",
+          "status": "NOT_CLAIMED"
+        }
+      ],
+      "epistemicVerdict": "ESTABLISHED_IN_SCOPE",
+      "evidenceScope": "Current manually consolidated Network owner corpus at the published source revision.",
+      "materialLineage": [
+        "NDF0 controlled repair from Communicability to InterLocusCapability is preserved in REPAIRED-HISTORY.md.",
+        "NDF1 dependent scope repair is preserved.",
+        "NDF6 remains NOT_ADMITTED."
+      ],
+      "profile": "LEGACY_EXTRACTION",
+      "provenance": [
+        "owners/network/README.md",
+        "owners/network/NDF-REGISTRY.md",
+        "owners/network/REPAIRED-HISTORY.md",
+        "owners/network/COVERAGE-CLOSURE.md",
+        "owners/network/NEGATIVE-RESIDUAL-HISTORY.md"
+      ],
+      "reopenPolicy": "Reopen a frozen claim only under an owner-declared concrete falsifier/reopen condition; do not infer NDF6 from numbering.",
+      "researchRef": "research:network:core-materialization-20260818",
+      "residualState": "OPEN_RESIDUALS_EXIST",
+      "resultRefs": [
+        "result:network:ndf0-ndf5-current-frozen",
+        "result:network:ndf6-not-admitted",
+        "result:network:whole-domain-exhaustive-closure-not-established"
+      ],
+      "scopeRefs": [
+        "research-owner:network"
+      ],
+      "standing": [
+        "CURRENT",
+        "FROZEN"
+      ]
+    }
+  ],
+  "currentRecovery": {
+    "locator": "owners/network/README.md",
+    "targetRole": "OWNER_RESEARCH_CORPUS"
+  },
+  "kind": "ordivon.research-owner-publication",
+  "ownerResearchRef": "research-owner:network",
+  "profile": "LEGACY_EXTRACTION",
+  "schemaVersion": 1,
+  "source": {
+    "authorityBranch": "refs/heads/main",
+    "corpusRoot": "owners/network",
+    "kind": "git",
+    "repository": "https://github.com/zycxfyh/ordivon-research.git",
+    "sourceRevision": "0fde1702e18cbaa12896497e13f400f64c7d1756"
+  },
+  "statements": [
+    {
+      "predicate": "OWNER_BINDING",
+      "scope": "OWNER",
+      "subjectRef": "research-owner:network",
+      "value": "network"
+    },
+    {
+      "predicate": "STANDING:CURRENT",
+      "scope": "OWNER",
+      "subjectRef": "research-owner:network",
+      "value": true
+    },
+    {
+      "predicate": "CLOSURE",
+      "scope": "WHOLE_DOMAIN",
+      "subjectRef": "research-owner:network",
+      "value": "NOT_CLAIMED"
+    }
+  ]
+}
