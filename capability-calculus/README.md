@@ -4,17 +4,28 @@ Derived-theory programme over frozen `NCT_v1=<K,Π,H;J>_Γ`.
 
 Scope: the K-side calculus for capability/requirement contracts and its typed interfaces to Π/H/J. This programme does not reopen NDF0-NDF5 and is not an NDF6 route.
 
-## Current standing after Round 2
+## Current canonical standing
 
-**Capability Calculus/Algebra v0 survives destructive testing.**
+**Network Capability Calculus v1 — FROZEN at the current evidence frontier.**
 
-The emerging structure is a typed **partial algebra with explicit side conditions**, not an unconditional monoid/lattice/semiring.
+The calculus is a typed **partial algebra with explicit observation-, context-, wiring- and witness-relative side conditions**, not an unconditional monoid/lattice/semiring.
 
 Key artifacts:
 
-- `CAPABILITY-CALCULUS-v0.md` — polarized clause graph, modalities, witnessed discharge/composition and residualization;
-- `ROUND-1-MINIMAL-CALCULUS-AND-DESTRUCTIVE-TESTS.md` — minimal-object and first semantic attacks;
-- `CAPABILITY-ALGEBRA-v0.md` — conditional associativity, operator-relative identities, hiding, precongruence, choice, temporal/continuity transformation, BRNF and guarded recursion candidate;
-- `ROUND-2-ALGEBRAIC-LAWS-AND-WORKSTATION-DOGFOOD.md` — algebraic destructive tournament and real Workstation scoped-egress/failover dogfood.
+- `NETWORK-CAPABILITY-CALCULUS-v1.md` — current frozen calculus/theorem statement and reopen conditions;
+- `ROUND-3-THEOREM-AND-CLOSURE-TOURNAMENT.md` — contextual equivalence, theorem tournaments, guarded-recursion repair and FREEZE decision;
+- `CAPABILITY-CALCULUS-v0.md` — Round-1 polarized clause graph, modalities, witnessed discharge/composition and residualization;
+- `CAPABILITY-ALGEBRA-v0.md` — Round-2 conditional algebra, choice, temporal/continuity transformation, BRNF and recursive-fragment candidate;
+- `ROUND-1-MINIMAL-CALCULUS-AND-DESTRUCTIVE-TESTS.md`;
+- `ROUND-2-ALGEBRAIC-LAWS-AND-WORKSTATION-DOGFOOD.md`.
 
-Next step: Round 3 theorem/closure tournament leading to FREEZE / REPAIR / REJECT for Capability Calculus v1.
+## v1 theorem profile
+
+- contextual equivalence is relative to explicit observation signature `Ω_Γ`;
+- conditional wiring associativity holds on the finite acyclic fixed-wiring fragment under stated side conditions;
+- provider refinement is precongruent only in provider-monotone contexts;
+- BRNF preserves semantics only relative to fixed wiring/witnesses and Ω-closed observations;
+- choice keeps branch, selector, quantifier, dependency and resolution semantics distinct;
+- recursive analysis uses grounded guarded SCCs; bounded unfolding is not live-capability proof.
+
+No NCT v1 or NDF0-NDF5 reopen condition fired. NDF6 remains NOT ADMITTED.
