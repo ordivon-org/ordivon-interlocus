@@ -1,18 +1,20 @@
-# Network Projection & Currentness Theory
+# Interlocus Projection & Currentness Theory
 
-Derived programme over frozen `NCT_v1=<K,Π,H;J>_Γ` and Network Capability Calculus v1.
+Derived programme over frozen `NCT_v1=<K,Π,H;J>_Γ` and Interlocus Capability Calculus v1.
+
+The frozen artifact name **Network Projection & Currentness Theory v1** is retained for provenance.
 
 Scope: Π + currentness/adequacy/evidence-facing J. It does not own K contract semantics, H realization history, generic epistemology/statistics, Host continuity truth, Runtime execution truth, or underlying World reality.
 
 ## Current canonical standing
 
-**Network Projection & Currentness Theory v1 — FROZEN at the current evidence frontier.**
+**Interlocus Projection & Currentness Theory v1 — FROZEN at the current evidence frontier.**
 
 The final structure uses typed projection/claim/evidence carriers, claim-local authority policies, epoch-local supersession, evidence frontiers, conflict-preserving composition, conservative refinement, role-relative identity/binding transitions and bridge-witnessed standing promotion.
 
 Key artifacts:
 
-- `NETWORK-PROJECTION-CURRENTNESS-THEORY-v1.md` — current frozen theory and reopen conditions;
+- `NETWORK-PROJECTION-CURRENTNESS-THEORY-v1.md` — frozen v1 theory and reopen conditions;
 - `ROUND-3-THEOREM-AND-CLOSURE-TOURNAMENT.md` — authority/supersession/frontier/refinement/standing theorem tournament and FREEZE decision;
 - `PROJECTION-CURRENTNESS-CALCULUS-v0.md` — Round-2 calculus;
 - `ROUND-2-PROJECTION-CALCULUS-AND-CURRENTNESS-ALGEBRA.md`;

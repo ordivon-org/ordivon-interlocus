@@ -1,8 +1,10 @@
-# Network Canonical Theory Map
+# Interlocus Canonical Theory Map
 
-This file is the first navigation surface for the **current frozen Network semantic theory lineage** inside the shared Ordivon research corpus.
+This file is the first navigation surface for the **current frozen Interlocus semantic theory lineage** inside the shared Ordivon research corpus.
 
-The shared repository is a physical durability/navigation home. Semantic authority remains with the Network owner corpus and its explicit frozen artifacts, not with `main` by itself.
+Canonical project name: **Ordivon Interlocus**. Canonical referent: **Interlocus Capability**. The stable owner identity/path remains `research-owner:network` / `owners/network/`; `Network` is the historical project name and remains embedded in frozen artifact/ref identities.
+
+The shared repository is a physical durability/navigation home. Semantic authority remains with the Interlocus owner corpus and its explicit frozen artifacts, not with `main` by itself.
 
 ## 1. Foundation baseline
 
@@ -24,10 +26,11 @@ Primary navigation:
 - `foundations/NDF0.md` … `foundations/NDF5.md`
 - `REPAIRED-HISTORY.md`
 - `COVERAGE-CLOSURE.md`
+- `NAME-TRANSITION-20260819.md`
 
-## 2. Network Core Theory v1
+## 2. Interlocus Core Theory v1
 
-Canonical decomposition:
+Frozen historical artifact name: **Network Core Theory v1**. Its identifier is retained as:
 
 `NCT_v1=<K,Π,H;J>_Γ`
 
@@ -43,7 +46,9 @@ Durable semantic ref:
 
 - `refs/ordivon/research/network-core-theory-v1`
 
-## 3. Capability Calculus v1 — K axis
+## 3. Interlocus Capability Calculus v1 — K axis
+
+Frozen artifact name: `Network Capability Calculus v1`.
 
 Owns the K-side typed partial algebra: polarized contract clauses, witnessed discharge/composition, role-relative refinement, usage/continuity/version discipline, BRNF and grounded guarded recursion.
 
@@ -59,7 +64,9 @@ Durable semantic ref:
 
 - `refs/ordivon/research/network-capability-calculus-v1`
 
-## 4. Projection & Currentness Theory v1 — Π / evidence-currentness-facing J
+## 4. Interlocus Projection & Currentness Theory v1 — Π / evidence-currentness-facing J
+
+Frozen artifact name: `Network Projection & Currentness Theory v1`.
 
 Owns typed projections, claims/evidence, claim-local authority, claim epochs, supersession/frontiers/conflict/currentness, identity/binding transitions and standing bridges.
 
@@ -75,9 +82,11 @@ Durable semantic ref:
 
 - `refs/ordivon/research/network-projection-currentness-v1`
 
-## 5. Operational Realization Theory v1 — H axis
+## 5. Interlocus Operational Realization Theory v1 — H axis
 
-Owns immutable typed Network realization events and partial-order realization history: causality/dependency, branch/race, resource/time, retry/recovery/reconciliation, continuation surfaces and RBNF.
+Frozen artifact name: `Network Operational Realization Theory v1`.
+
+Owns immutable typed Interlocus realization events and partial-order realization history: causality/dependency, branch/race, resource/time, retry/recovery/reconciliation, continuation surfaces and RBNF.
 
 Artifact:
 
@@ -93,7 +102,7 @@ Durable semantic ref:
 
 ## 6. Whole-NCT Derived Reconciliation v1
 
-Final disposition: **INTERFACE REPAIR FREEZE**.
+Historical NCT identifier is retained. Final disposition: **INTERFACE REPAIR FREEZE**.
 
 This artifact freezes the cross-axis interpretation/proof contract while leaving NCT v1 and all three derived v1 theories unchanged. It makes explicit shared J ownership, typed identity/dependency/provenance roles, staged migration, same-slice proof acyclicity and shared `Ω_NCT` normalization closure.
 
@@ -120,21 +129,23 @@ The semantic lineage is linear and provenance-preserving:
 `→ Capability Calculus v1`
 `→ Projection & Currentness v1`
 `→ Operational Realization v1`
-`→ Whole-NCT Reconciliation v1`.
+`→ Whole-NCT Reconciliation v1`
+`→ controlled Network → Interlocus naming transition`.
 
-The durable refs above preserve the exact frozen semantic commits even after integration into shared `main` through a merge commit.
+The durable historical refs above preserve the exact frozen semantic commits. The naming transition does not rename those refs or rewrite their contents.
 
-## 8. Shared-main integration semantics
+## 8. Shared-main integration and name semantics
 
-Shared `main` may contain unrelated owners and Research-System publication artifacts. A shared-main integration commit is **physical durability/navigation**, not a new Network semantic theorem and not an owner merge.
+Shared `main` may contain unrelated owners and Research-System publication artifacts. A shared-main integration commit is **physical durability/navigation**, not a new Interlocus semantic theorem and not an owner merge.
 
 Canonical laws for recovery:
 
 - frozen semantic refs outrank assumptions reconstructed from a later merge topology;
 - owner-specific frozen artifacts remain the semantic source for their claims;
 - `authority/` publications are separately versioned Research-System authority artifacts and must not be silently rewritten to retroactively include later research;
-- `main` reachability is durability evidence, not semantic currentness by itself.
+- `main` reachability is durability evidence, not semantic currentness by itself;
+- `OwnerIdentityContinuity != NameContinuity`: the stable `network` identity remains valid while the current canonical project name is Interlocus.
 
 ## 9. Next research boundary
 
-The current Network core reconstruction is semantically closed. Future programmes such as resilience, protocol evolution, agentic networking or observability must be independent derived programmes with their own charters and reopen discipline. They must not be presented as NDF6 or silently mutate the frozen v1 theories.
+The current Interlocus core reconstruction is semantically closed. Future programmes such as resilience, protocol evolution, agentic interlocus capability, observability, shared-resource realization or non-message-passing capability relations must be independent derived programmes with their own charters and reopen discipline. They must not be presented as NDF6 or silently mutate the frozen v1 theories.

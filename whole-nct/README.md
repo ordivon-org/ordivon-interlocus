@@ -1,13 +1,15 @@
-# Whole-NCT Derived Theory Reconciliation
+# Whole-NCT / Interlocus Derived Theory Reconciliation
 
-Cross-axis semantic reconciliation for frozen:
+Cross-axis semantic reconciliation for frozen historical artifacts:
 
 - Network Core Theory v1 — `NCT_v1=<K,Π,H;J>_Γ`;
 - Network Capability Calculus v1;
 - Network Projection & Currentness Theory v1;
 - Network Operational Realization Theory v1.
 
-This programme does not create a new semantic carrier or Network Foundation. It makes the interfaces among K, Π, H and J explicit, tests circularity/ownership/migration/abstraction compatibility, and determines whether the frozen NCT core survives its independently developed derived theories.
+Under the current project name these jointly form the frozen **Interlocus** core lineage. Historical NCT/artifact identifiers are intentionally retained.
+
+This programme does not create a new semantic carrier or NDF. It makes the interfaces among K, Π, H and J explicit, tests circularity/ownership/migration/abstraction compatibility, and determines whether the frozen core survives its independently developed derived theories.
 
 ## Final standing
 
@@ -24,4 +26,4 @@ Key artifacts:
 - `WHOLE-NCT-INTERFACE-RECONCILIATION-v0.md` — Round-1 interface grammar;
 - `ROUND-1-CROSS-AXIS-RECONCILIATION.md`.
 
-Semantic theory expansion is now closed. Next step is separate physical Git/shared-main reconciliation and canonical navigation/materialization, not NDF/Foundation growth.
+Semantic theory expansion is closed at this frontier. The Network → Interlocus name transition changes current descriptive language only; it does not reopen or mutate the frozen theory.

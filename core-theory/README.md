@@ -1,17 +1,20 @@
-# Network Core Theory
+# Interlocus Core Theory
 
 This directory contains post-Foundation derived-theory reconstruction over the frozen/repaired NDF0-NDF5 corpus.
+
+The frozen artifact and identifier remain **Network Core Theory v1** / `NCT_v1=<K,Π,H;J>_Γ` for provenance. Under the current project naming, this is the frozen **Interlocus Core Theory v1** lineage.
 
 It is not an NDF6 programme and does not redefine Foundation authority. Any Foundation reopen still requires an exact frozen claim plus a concrete falsifier.
 
 ## Current canonical derived theory
 
-**Derived Network Core Theory v1 — FROZEN at the current evidence frontier**
+**Interlocus Core Theory v1 — FROZEN at the current evidence frontier**
+Historical frozen artifact: `NETWORK-CORE-THEORY-v1.md` / Network Core Theory v1.
 
 `NCT_v1 = <K, Π, H ; J>_Γ`
 
 - `K` — Capability–Requirement Contract Boundary;
-- `Π` — grounded Qualified Network Projection Family;
+- `Π` — grounded Qualified Interlocus Projection Family;
 - `H` — Admissible Realization History;
 - `J` — first-class typed judgement layer, not a fourth semantic carrier/state axis.
 
@@ -33,6 +36,6 @@ The current theory preserves separate judgements for semantic capability standin
 
 - NDF0-NDF5 remain frozen Foundation/provenance authority.
 - NDF6 remains NOT ADMITTED.
-- Network Core Theory v1 is a derived compression over those Foundations, not their replacement.
+- Interlocus Core Theory v1 is a derived compression over those Foundations, not their replacement.
 - Strong provisional derived-theory closure is established; exhaustive mathematical or forever-domain closure is not claimed.
 - Future work should prefer derived theory, cross-owner theorem programmes and engineering/external falsification over Foundation-number expansion unless an explicit reopen condition fires.
