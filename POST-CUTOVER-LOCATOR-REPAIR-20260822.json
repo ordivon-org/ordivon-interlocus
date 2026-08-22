@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "ordivon.post-cutover-authority-locator-repair",
+  "date": "2026-08-22",
+  "cutoverId": "sha256:b86a6fbe1f091fa51efaf552015bf18c7e57a6e2b63c9e76bb36108f825f59c1",
+  "repository": "ordivon-interlocus",
+  "previousAuthorityVersionRef": "sha256:31d78dd22ca73b95fc9a1107ad6a38e884859e94247263d14b916cef67e78e2a",
+  "currentAuthorityVersionRef": "sha256:61800d2c8679cf37c9b22bd1d38ff420c706b95bdf7e8b590820430e8729c557",
+  "repairScope": "CURRENT_PUBLICATION_STANDALONE_PROVENANCE_AND_PHYSICAL-LOCATOR_CONSISTENCY",
+  "theoryStandingChanged": false,
+  "resultStandingChanged": false,
+  "historicalPublicationsRewritten": false,
+  "sourceRevision": "285ca88ed6296d8d754cf8683a861b76bc8820aa",
+  "semanticNarrowing": "Removed the obsolete claim that owners/network is a stable current recovery root; owner/authority/NDF/NCT/network-* identities remain stable."
+}
