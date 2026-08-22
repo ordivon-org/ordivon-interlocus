@@ -8,13 +8,12 @@
 
 The transition changes the current descriptive language of the owner; it does **not** create a new semantic owner.
 
-Stable owner identity remains:
+Stable semantic identity remains:
 
 - `research-owner:network`;
-- `authority:ordivon:research-owner:network`;
-- physical recovery root `owners/network/`.
+- `authority:ordivon:research-owner:network`.
 
-These are durable identity/provenance locators, not the current human-facing project name.
+At the time of the 2026-08-19 name transition, the physical recovery root was `owners/network/` in `ordivon-research`. That path is historical provenance, not semantic identity. After the 2026-08-22 physical split, current recovery is `README.md` at the root of `ordivon-interlocus`.
 
 ## Why the old name became too narrow
 
@@ -79,4 +78,4 @@ It does not annex:
 
 `OwnerIdentityContinuity != NameContinuity`.
 
-The same owner can acquire a better canonical name when research falsifies the old descriptive boundary. A name transition is admissible when it increases referent fidelity while preserving exact semantic lineage, frozen claims, negative history, authority identity and recovery.
+The same owner can acquire a better canonical name when research falsifies the old descriptive boundary. A name transition is admissible when it increases referent fidelity while preserving exact semantic lineage, frozen claims, negative history and authority identity. Physical recovery location may migrate independently when provenance is preserved and current authority republishes the new locator.

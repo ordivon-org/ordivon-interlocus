@@ -1,10 +1,10 @@
 # Interlocus Canonical Theory Map
 
-This file is the first navigation surface for the **current frozen Interlocus semantic theory lineage** inside the shared Ordivon research corpus.
+This file is the first navigation surface for the **current frozen Interlocus semantic theory lineage** in the standalone `ordivon-interlocus` repository.
 
-Canonical project name: **Ordivon Interlocus**. Canonical referent: **Interlocus Capability**. The stable owner identity/path remains `research-owner:network` / `owners/network/`; `Network` is the historical project name and remains embedded in frozen artifact/ref identities.
+Canonical project name: **Ordivon Interlocus**. Canonical referent: **Interlocus Capability**. The stable semantic owner identity remains `research-owner:network`; `Network` is the historical project name and remains embedded in frozen artifact/ref identities. The former `owners/network/` physical path is historical provenance, not a stable semantic identity.
 
-The shared repository is a physical durability/navigation home. Semantic authority remains with the Interlocus owner corpus and its explicit frozen artifacts, not with `main` by itself.
+The standalone repository is the current physical durability/navigation home. Semantic authority remains with the Interlocus owner publication and its explicit frozen artifacts, not with a repository branch name by itself.
 
 ## 1. Foundation baseline
 
