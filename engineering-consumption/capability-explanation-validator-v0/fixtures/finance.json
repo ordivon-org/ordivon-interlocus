@@ -1,0 +1,86 @@
+{
+  "kind": "capability_path_explanation_v0",
+  "target_use": {
+    "id": "finance:account-observe:profile-D",
+    "contract_ref": "finance:account.observe:v1",
+    "scope": "authenticated read-only account observation via exact scoped egress profile",
+    "snapshot": "2026-08-19T08:27:29Z"
+  },
+  "source_facts": [
+    {
+      "id": "profile-configured",
+      "owner_ref": "ordivon-workstation",
+      "source_ref": "workstation.egress.observe:finance-okx:sha256:3e993e",
+      "fact_kind": "actual",
+      "fence": {"token": "sha256:3e993ee46cc5f9dbf0457c03464ba18fd5175bbfa27ff38a34d64c85125fb69e", "currentness": "CURRENT"},
+      "native": {"label": "profile", "value": "finance-okx"}
+    },
+    {
+      "id": "workstation-status",
+      "owner_ref": "ordivon-workstation",
+      "source_ref": "workstation.egress.observe:finance-okx:status",
+      "fact_kind": "actual",
+      "fence": {"token": "sha256:3e993ee46cc5f9dbf0457c03464ba18fd5175bbfa27ff38a34d64c85125fb69e", "currentness": "CURRENT"},
+      "native": {"label": "status", "value": "UNKNOWN"}
+    },
+    {
+      "id": "eligible-members",
+      "owner_ref": "ordivon-workstation",
+      "source_ref": "workstation.egress.observe:finance-okx:eligible-members",
+      "fact_kind": "actual",
+      "fence": {"token": "sha256:3e993ee46cc5f9dbf0457c03464ba18fd5175bbfa27ff38a34d64c85125fb69e", "currentness": "CURRENT"},
+      "native": {"label": "eligibleMembers", "value": []}
+    },
+    {
+      "id": "listener",
+      "owner_ref": "ordivon-workstation",
+      "source_ref": "workstation.egress.observe:finance-okx:listener",
+      "fact_kind": "actual",
+      "fence": {"token": "sha256:3e993ee46cc5f9dbf0457c03464ba18fd5175bbfa27ff38a34d64c85125fb69e", "currentness": "CURRENT"},
+      "native": {"label": "listenerReachable", "value": false}
+    },
+    {
+      "id": "service-active",
+      "owner_ref": "ordivon-workstation",
+      "source_ref": "workstation.egress.observe:finance-okx:service",
+      "fact_kind": "actual",
+      "fence": {"token": "sha256:3e993ee46cc5f9dbf0457c03464ba18fd5175bbfa27ff38a34d64c85125fb69e", "currentness": "CURRENT"},
+      "native": {"label": "serviceActive", "value": false}
+    },
+    {
+      "id": "anchor-status",
+      "owner_ref": "ordivon-workstation",
+      "source_ref": "workstation.anchor.observe:surf-clash:sha256:3eef6a",
+      "fact_kind": "actual",
+      "fence": {"token": "sha256:d7e66dcb53f484bb87bcd7649231d5f205b01dafd49a2f4f9e89be910732e92c", "currentness": "CURRENT"},
+      "native": {"label": "status", "value": "UNAVAILABLE"}
+    },
+    {
+      "id": "finance-outcome",
+      "owner_ref": "ordivon-finance",
+      "source_ref": "finance.account.observe:expected-profile-D",
+      "fact_kind": "actual",
+      "fence": {"token": "sha256:3e993ee46cc5f9dbf0457c03464ba18fd5175bbfa27ff38a34d64c85125fb69e", "currentness": "CURRENT"},
+      "native": {"label": "error.code", "value": "EGRESS_NOT_CURRENT"}
+    }
+  ],
+  "justification_edges": [
+    {
+      "id": "current-egress-gate",
+      "premises": ["workstation-status", "profile-configured"],
+      "conclusion": "finance-outcome",
+      "relation_contract_ref": "finance:account.observe:requires-current-available-egress",
+      "relation_fence": {"token": "finance:account.observe:v1", "currentness": "CURRENT"},
+      "role": "requirement",
+      "supports_target_blocker_nodes": ["workstation-status"],
+      "necessity_witness_ref": "finance:account.observe:current-egress-gate"
+    }
+  ],
+  "assessment": {
+    "status": "EXPLAINED",
+    "target_outcome_node_id": "finance-outcome",
+    "observed_blocking_node_ids": ["workstation-status", "eligible-members", "listener", "service-active", "anchor-status"],
+    "target_blocking_node_ids": ["workstation-status"],
+    "revalidation_node_ids": ["workstation-status", "anchor-status"]
+  }
+}

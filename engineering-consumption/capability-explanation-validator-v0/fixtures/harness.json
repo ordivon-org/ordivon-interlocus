@@ -1,0 +1,70 @@
+{
+  "kind": "capability_path_explanation_v0",
+  "target_use": {
+    "id": "harness:provider-use:scripted-only",
+    "contract_ref": "harness:provider-use-policy:U_scripted_only",
+    "scope": "complete one Harness provider use under scripted-only policy",
+    "snapshot": "campaign5-v1"
+  },
+  "source_facts": [
+    {
+      "id": "deepseek-route-exists",
+      "owner_ref": "ordivon-harness",
+      "source_ref": "campaign5:R1:deepseek-route",
+      "fact_kind": "actual",
+      "fence": {"token": "sha256:d0fc3378ac734e0d8fbf45ba27b16e7518b7bdebcda7e5e70e3478cd7023c000", "currentness": "CURRENT"},
+      "native": {"label": "routeExists", "value": true}
+    },
+    {
+      "id": "deepseek-branch",
+      "owner_ref": "ordivon-harness",
+      "source_ref": "campaign5:R1:U_scripted_only",
+      "fact_kind": "actual",
+      "fence": {"token": "sha256:d0fc3378ac734e0d8fbf45ba27b16e7518b7bdebcda7e5e70e3478cd7023c000", "currentness": "CURRENT"},
+      "native": {"label": "routeAdmission", "value": "REJECTED"}
+    },
+    {
+      "id": "scripted-branch",
+      "owner_ref": "ordivon-harness",
+      "source_ref": "campaign5:scripted-route:U_scripted_only",
+      "fact_kind": "actual",
+      "fence": {"token": "sha256:d0fc3378ac734e0d8fbf45ba27b16e7518b7bdebcda7e5e70e3478cd7023c000", "currentness": "CURRENT"},
+      "native": {"label": "routeAdmission", "value": "ADMITTED"}
+    },
+    {
+      "id": "target-outcome",
+      "owner_ref": "ordivon-harness",
+      "source_ref": "campaign5:target-use:U_scripted_only",
+      "fact_kind": "actual",
+      "fence": {"token": "campaign5-v1", "currentness": "CURRENT"},
+      "native": {"label": "targetUse", "value": "SATISFIED_VIA_SCRIPTED_ROUTE"}
+    }
+  ],
+  "justification_edges": [
+    {
+      "id": "deepseek-branch-evaluation",
+      "premises": ["deepseek-route-exists"],
+      "conclusion": "deepseek-branch",
+      "relation_contract_ref": "harness:provider-use-policy:U_scripted_only",
+      "relation_fence": {"token": "sha256:d0fc3378ac734e0d8fbf45ba27b16e7518b7bdebcda7e5e70e3478cd7023c000", "currentness": "CURRENT"},
+      "role": "witness",
+      "supports_target_blocker_nodes": []
+    },
+    {
+      "id": "alternative-route-satisfies-target",
+      "premises": ["scripted-branch", "deepseek-branch-evaluation"],
+      "conclusion": "target-outcome",
+      "relation_contract_ref": "harness:provider-choice:U_scripted_only",
+      "relation_fence": {"token": "campaign5-v1", "currentness": "CURRENT"},
+      "role": "requirement",
+      "supports_target_blocker_nodes": []
+    }
+  ],
+  "assessment": {
+    "status": "EXPLAINED",
+    "target_outcome_node_id": "target-outcome",
+    "observed_blocking_node_ids": ["deepseek-branch"],
+    "target_blocking_node_ids": [],
+    "revalidation_node_ids": []
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "kind": "capability_path_explanation_v0",
+  "target_use": {
+    "id": "research:resume-task-now",
+    "contract_ref": "research-system:current-recovery-action-admission:v1",
+    "scope": "resume the semantically current research route now",
+    "snapshot": "2026-08-19"
+  },
+  "source_facts": [
+    {
+      "id": "host-ready",
+      "owner_ref": "ordivon-host",
+      "source_ref": "host-task:legacy-ready",
+      "fact_kind": "actual",
+      "fence": {"token": "host-revision:ready", "currentness": "CURRENT"},
+      "native": {"label": "taskState", "value": "READY"}
+    },
+    {
+      "id": "old-route-standing",
+      "owner_ref": "ordivon-research-system",
+      "source_ref": "current-recovery:historical-route",
+      "fact_kind": "actual",
+      "fence": {"token": "currentness-audit:20260819", "currentness": "CURRENT"},
+      "native": {"label": "historicalRoute", "value": "NOT_CURRENT"}
+    },
+    {
+      "id": "current-recovery",
+      "owner_ref": "ordivon-research-system",
+      "source_ref": "current-recovery:later-owner-authority",
+      "fact_kind": "actual",
+      "fence": {"token": "currentness-audit:20260819", "currentness": "CURRENT"},
+      "native": {"label": "recoveryDisposition", "value": "REFRESH_OR_SUCCESSOR_REQUIRED"}
+    },
+    {
+      "id": "action-outcome",
+      "owner_ref": "ordivon-research-system",
+      "source_ref": "action-admission:historical-route",
+      "fact_kind": "actual",
+      "fence": {"token": "currentness-audit:20260819", "currentness": "CURRENT"},
+      "native": {"label": "actionAdmission", "value": "OLD_ROUTE_REJECTED"}
+    }
+  ],
+  "justification_edges": [
+    {
+      "id": "ready-does-not-carry-action-standing",
+      "premises": ["host-ready", "old-route-standing", "current-recovery"],
+      "conclusion": "action-outcome",
+      "relation_contract_ref": "research-system:continuity-vs-action-currentness:v1",
+      "relation_fence": {"token": "currentness-audit:20260819", "currentness": "CURRENT"},
+      "role": "transport",
+      "supports_target_blocker_nodes": ["old-route-standing"],
+      "necessity_witness_ref": "research-system:current-action-requires-current-route"
+    }
+  ],
+  "assessment": {
+    "status": "EXPLAINED",
+    "target_outcome_node_id": "action-outcome",
+    "observed_blocking_node_ids": ["old-route-standing"],
+    "target_blocking_node_ids": ["old-route-standing"],
+    "revalidation_node_ids": ["current-recovery"]
+  }
+}

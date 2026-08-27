@@ -39,6 +39,7 @@ Start with [`CANONICAL-THEORY-MAP.md`](CANONICAL-THEORY-MAP.md) for the current 
 - [`core-theory/`](core-theory/)
 - [`capability-calculus/`](capability-calculus/)
 - [`projection-currentness/`](projection-currentness/)
+- [`engineering-consumption/`](engineering-consumption/) — non-authoritative pure reference consumers/validators; no production service admission.
 - [`operational-realization/`](operational-realization/)
 - [`whole-nct/`](whole-nct/)
 
