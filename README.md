@@ -49,4 +49,13 @@ Start with [`CANONICAL-THEORY-MAP.md`](CANONICAL-THEORY-MAP.md) for the current 
 - [`ENGINEERING-BRIDGES.md`](ENGINEERING-BRIDGES.md)
 - [`PROVENANCE.md`](PROVENANCE.md)
 
+Current owner recovery and executable reference material can be checked without a package/runtime dependency plane:
+
+```bash
+scripts/owner-environment test
+scripts/owner-environment cold-start
+```
+
+The gate verifies the content-addressed current authority publication, its declared current recovery/provenance locators, and the rematerialized pure explanation validator. It does not turn research references into a production service or validate external owner facts.
+
 Architecture is a typed responsibility graph, not a mandatory numbered protocol stack. Shared repository integration provides durability/navigation only; it does not transfer semantic ownership to Git `main` or to another Ordivon owner.
