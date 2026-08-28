@@ -134,9 +134,9 @@ The semantic lineage is linear and provenance-preserving:
 
 The durable historical refs above preserve the exact frozen semantic commits. The naming transition does not rename those refs or rewrite their contents.
 
-## 8. Shared-main integration and name semantics
+## 8. Historical shared-main integration and name semantics
 
-Shared `main` may contain unrelated owners and Research-System publication artifacts. A shared-main integration commit is **physical durability/navigation**, not a new Interlocus semantic theorem and not an owner merge.
+Before the 2026-08-22 standalone cutover, shared `main` could contain unrelated owners and Research-System publication artifacts. Those shared-main integration commits remain **historical physical durability/navigation** evidence, not Interlocus semantic theorems and not owner merges. Current physical recovery is the standalone `ordivon-interlocus` repository.
 
 Canonical laws for recovery:
 

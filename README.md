@@ -58,4 +58,4 @@ scripts/owner-environment cold-start
 
 The gate verifies the content-addressed current authority publication, its declared current recovery/provenance locators, and the rematerialized pure explanation validator. It does not turn research references into a production service or validate external owner facts.
 
-Architecture is a typed responsibility graph, not a mandatory numbered protocol stack. Shared repository integration provides durability/navigation only; it does not transfer semantic ownership to Git `main` or to another Ordivon owner.
+Architecture is a typed responsibility graph, not a mandatory numbered protocol stack. The prior shared-repository integration supplied historical durability/navigation only; the current physical home is standalone `ordivon-interlocus`. Neither repository placement nor a Git branch transfers semantic ownership to another Ordivon owner.
