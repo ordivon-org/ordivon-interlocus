@@ -1,6 +1,6 @@
 {
   "authorityRef": "authority:ordivon:research-owner:network",
-  "currentAuthorityVersionRef": "sha256:61800d2c8679cf37c9b22bd1d38ff420c706b95bdf7e8b590820430e8729c557",
+  "currentAuthorityVersionRef": "sha256:71800d2c8679cf37c9b22bd1d38ff420c706b95bdf7e8b590820430e8729c557",
   "kind": "ordivon.research-owner-current",
   "ownerResearchRef": "research-owner:network",
   "previousAuthorityVersionRef": "sha256:31d78dd22ca73b95fc9a1107ad6a38e884859e94247263d14b916cef67e78e2a",
